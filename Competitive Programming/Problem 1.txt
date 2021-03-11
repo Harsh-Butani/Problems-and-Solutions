@@ -1,0 +1,14 @@
+Problem: Given an array of N integers(It may contain both positive and negative integers) and a positive number K. We need to find the maximum sum that can be obtained from the array such that no more than K consecutive elements are picked.
+
+Input: The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows. The first line of each test case contains two space-separated integers N and K. The second line contains N space-separated integers.
+
+Output: For each test case, print a single line - the maximum sum possible.
+
+Example Input: 1
+               11 2
+               5 9 6 -2 -6 6 7 9 8 5 -9
+
+Example Output: 41
+
+Explanation: 9 + 6 + 6 + 7 + 8 + 5 = 41
+ 
