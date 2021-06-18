@@ -36,6 +36,7 @@ int main()
             sum += a[i];
         }
         ll lo = 0, hi = sum, mid;
+        bool b = 0;
         while (lo <= hi)
         {
             mid = lo + (hi - lo) / 2;
@@ -44,6 +45,7 @@ int main()
             if (b1 && !b2)
             {
                 cout << mid << '\n';
+                b = 1;
                 break;
             }
             else if (!b1)
@@ -54,6 +56,10 @@ int main()
             {
                 lo = mid + 1;
             }
+        }
+        if (!b)
+        {
+            cout << 0 << '\n';
         }
     }
     return 0;
